@@ -8,6 +8,7 @@ rild.libargs=-d /dev/smd0
 # MAX PROP NAME is 31 chars --|
 ro.telephony.ril_class=SamsungQualcommUiccRIL
 telephony.lteOnGsmDevice=1
+ro.telephony.default_network=9
 
 # hardware info
 ro.device.chipset=Qualcomm Snapdragon S4 MSM8960
@@ -16,3 +17,4 @@ ro.device.gpu=Qualcomm Adreno 225
 ro.device.rear_cam=8 MP
 ro.device.front_cam=1.9 MP
 ro.device.screen_res=720x1280
+
